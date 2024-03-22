@@ -16,7 +16,7 @@ CREATE TABLE users
 INSERT INTO users
     (name, email, password)
 VALUES
-    ('sheldon', 'welinga', 'sheldon@gmail.com', '0712345678', 'sheldon123');
+    ('brahim', 'znaidi', 'brahim@gmail.com', '123456', 'brahim123');
 
 -- view all users in the users table
 SELECT *
@@ -25,7 +25,7 @@ FROM users;
 -- view a single user from the users table
 SELECT *
 FROM users
-WHERE email ='sheldon@gmail.com';
+WHERE email ='brahim@gmail.com';
 
 -- clear the entire table
 TRUNCATE TABLE users;
